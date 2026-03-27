@@ -34,7 +34,7 @@
 
 &gem1 {
 	/delete-property/ local-mac-address;
-	phy-mode = "gmii";
+	phy-mode = "rgmii-id";
 	phy-handle = <&phy1>;
 	mdio {
 		phy1: phy@3 {
